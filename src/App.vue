@@ -1,7 +1,5 @@
 <template>
-	<q-layout
-		id="app"
-		view="lHh LpR lFf">
+	<q-layout>
 		Test App
 	</q-layout>
 </template>
@@ -9,7 +7,7 @@
 <script setup lang="ts">
 // import QLayout from 'quasar/src/components/layout/QLayout';
 
-console.log('hi');
+console.log('foo bar');
 
 const year = (new Date()).getFullYear();
 console.log(year);
